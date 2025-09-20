@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SinCityInkLanding() {
   return (
@@ -18,6 +19,9 @@ export default function SinCityInkLanding() {
             <li><a href="#preise" className="hover:text-white">Preise</a></li>
             <li><a href="#onboarding" className="hover:text-white">Onboarding</a></li>
             <li><a href="#kontakt" className="hover:text-white">Kontakt</a></li>
+            {/* Optional: sofort-Links zu den Rechtstexten im Header */}
+            {/* <li><Link href="/privacy" className="hover:text-white">Datenschutz</Link></li>
+            <li><Link href="/terms" className="hover:text-white">AGB</Link></li> */}
           </ul>
         </nav>
 
@@ -147,15 +151,15 @@ export default function SinCityInkLanding() {
       {/* Footer */}
       <footer className="bg-black py-10 text-center text-white/70">
         <div className="flex justify-center gap-6 mb-6">
-          <a href="#">Instagram</a>
-          <a href="#">TikTok</a>
-          <a href="#">YouTube</a>
+          <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="#" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="#" target="_blank" rel="noreferrer">YouTube</a>
         </div>
         <p>© 2025 Sin City Ink – Alle Rechte vorbehalten</p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="#">Impressum</a>
-          <a href="#">Datenschutz</a>
-          <a href="#">AGB</a>
+          <Link href="/impressum">Impressum</Link>
+          <Link href="/privacy">Datenschutz</Link>
+          <Link href="/terms">Nutzungsbedingungen</Link>
         </div>
       </footer>
     </div>
