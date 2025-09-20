@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Nutzungsbedingungen – SIN CITY INK",
+  robots: { index: true, follow: true },
+};
 export default function TermsPage() {
   return (
     <main className="p-10 text-white bg-black min-h-screen">

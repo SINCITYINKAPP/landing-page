@@ -1,24 +1,52 @@
 export default function ImpressumPage() {
   return (
-    <main className="p-10 text-white bg-black min-h-screen">
+    <main className="min-h-screen bg-black text-white p-10">
       <h1 className="text-3xl font-bold mb-6">Impressum</h1>
-      <p><strong>SIN CITY INK UG (haftungsbeschränkt)</strong></p>
-      <p>Rosenheimer Str. 167<br />81671 München<br />Deutschland</p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Vertreten durch:</h2>
-      <p>Geschäftsführer: Markus-Georg Jürgen Schneider</p>
+      <section className="space-y-4">
+        <p><strong>SIN CITY INK UG (haftungsbeschränkt)</strong></p>
+        <p>Rosenheimer Str. 167<br/>81671 München<br/>Deutschland</p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Kontakt:</h2>
-      <p>E-Mail: info@sin-city-ink.app<br />Telefon: +49 179 5666840</p>
+        <p>
+          <strong>Geschäftsführer:</strong><br/>
+          Markus-Georg Jürgen Schneider
+        </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Registereintrag:</h2>
-      <p>Handelsregister: HRB 247058, Amtsgericht München</p>
+        <p>
+          <strong>Kontakt:</strong><br/>
+          E-Mail: <a className="underline" href="mailto:info@sin-city-ink.app">info@sin-city-ink.app</a><br/>
+          Telefon: <a className="underline" href="tel:+491795666840">+49 179 5666840</a>
+        </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">Umsatzsteuer-ID:</h2>
-      <p>DE 323193645</p>
+        <p>
+          <strong>USt-IdNr.:</strong> DE 323193645<br/>
+          <strong>Handelsregister:</strong> HRB 247058, Amtsgericht München
+        </p>
 
-      <p className="mt-6">Stand: September 2025</p>
+        <p>
+          <strong>Inhaltlich Verantwortlicher gem. § 18 Abs. 2 MStV:</strong><br/>
+          Markus-Georg Jürgen Schneider, Anschrift wie oben
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-8">Haftungsausschluss</h2>
+        <p>
+          Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung
+          für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten
+          sind ausschließlich deren Betreiber verantwortlich.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-8">Urheberrecht</h2>
+        <p>
+          Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
+          Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind
+          als solche gekennzeichnet. Die Vervielfältigung, Bearbeitung,
+          Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+          Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen
+          Autors bzw. Erstellers.
+        </p>
+      </section>
+
+      <p className="mt-6 text-white/70">Stand: September 2025</p>
     </main>
   );
 }
-
