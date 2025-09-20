@@ -2,20 +2,33 @@ export default function TermsPage() {
   return (
     <main className="p-10 text-white bg-black min-h-screen">
       <h1 className="text-3xl font-bold mb-6">Nutzungsbedingungen</h1>
-      <p>Willkommen bei „Sin City Ink“. Mit der Nutzung dieser App stimmst du zu:</p>
 
-      <ul className="list-disc list-inside mt-4 space-y-2">
-        <li>Nur für geschäftliche Nutzung durch Tattoo-Studios.</li>
-        <li>Keine unerlaubte Weitergabe von Inhalten.</li>
-        <li>Der Service kann jederzeit angepasst werden.</li>
-        <li>
-          Die KI der SIN CITY INK Tattoo-Studio-App darf Konversationen zwischen
-          Nutzern und deren Kunden via WhatsApp analysieren, um die Qualität der
-          Antworten zu verbessern und neue Funktionen zu entwickeln.
-        </li>
-        <li>Die Analyse erfolgt ausschließlich automatisiert und unter Beachtung der DSGVO.</li>
-        <li>Es findet keine unautorisierte Weitergabe der Daten an Dritte statt.</li>
+      <p>Diese Bedingungen regeln die Nutzung der SIN CITY INK Tattoo-Studio App.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">1. Nutzung</h2>
+      <ul className="list-disc list-inside space-y-1">
+        <li>Die App ist für geschäftliche Nutzung durch Tattoo-Studios bestimmt.</li>
+        <li>Du bist für die Rechtmäßigkeit deiner Inhalte verantwortlich.</li>
       </ul>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">2. KI-Analyse von Konversationen</h2>
+      <ul className="list-disc list-inside space-y-1">
+        <li>
+          Unsere KI darf Konversationen zwischen dir und deinen Kunden (z. B. via WhatsApp)
+          automatisiert analysieren, um die Antwortqualität zu verbessern und neue Funktionen zu entwickeln.
+        </li>
+        <li>Es findet keine unautorisierte Weitergabe an Dritte statt; die Verarbeitung erfolgt DSGVO-konform.</li>
+        <li>Du stellst sicher, dass du deine Kunden hierüber informierst, soweit erforderlich.</li>
+      </ul>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">3. Verfügbarkeit & Änderungen</h2>
+      <p>Wir können Funktionen ändern/erweitern und Wartungsarbeiten durchführen.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">4. Haftung</h2>
+      <p>Wir haften nur nach den gesetzlichen Vorschriften; bei leichter Fahrlässigkeit nur bei Verletzung wesentlicher Pflichten.</p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">5. Schlussbestimmungen</h2>
+      <p>Es gilt deutsches Recht. Gerichtsstand – soweit zulässig – ist München.</p>
 
       <p className="mt-6">Stand: September 2025</p>
     </main>

@@ -148,18 +148,20 @@ export default function SinCityInkLanding() {
         </details>
       </section>
 
-      {/* Footer */}
+           {/* Footer */}
       <footer className="bg-black py-10 text-center text-white/70">
         <div className="flex justify-center gap-6 mb-6">
-          <a href="#" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="#" target="_blank" rel="noreferrer">TikTok</a>
-          <a href="#" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.youtube.com" target="_blank" rel="noreferrer">YouTube</a>
         </div>
+
         <p>© 2025 Sin City Ink – Alle Rechte vorbehalten</p>
+
         <div className="flex justify-center gap-6 mt-4">
-          <Link href="/impressum">Impressum</Link>
-          <Link href="/privacy">Datenschutz</Link>
-          <Link href="/terms">Nutzungsbedingungen</Link>
+          <a href="/impressum">Impressum</a>
+          <a href="/privacy">Datenschutz</a>
+          <a href="/terms">Nutzungs­bedingungen</a>
         </div>
       </footer>
     </div>
