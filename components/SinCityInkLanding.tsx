@@ -19,9 +19,12 @@ export default function SinCityInkLanding() {
             <li><a href="#preise" className="hover:text-white">Preise</a></li>
             <li><a href="#onboarding" className="hover:text-white">Onboarding</a></li>
             <li><a href="#kontakt" className="hover:text-white">Kontakt</a></li>
-            {/* Optional: sofort-Links zu den Rechtstexten im Header */}
-            {/* <li><Link href="/privacy" className="hover:text-white">Datenschutz</Link></li>
-            <li><Link href="/terms" className="hover:text-white">AGB</Link></li> */}
+            {/* Neu: Login im Header */}
+            <li>
+              <Link href="/login" className="hover:text-white font-semibold text-white">
+                Login
+              </Link>
+            </li>
           </ul>
         </nav>
 
@@ -45,6 +48,13 @@ export default function SinCityInkLanding() {
             >
               Demo ansehen
             </a>
+            {/* Neu: Login im Hero */}
+            <Link
+              href="/login"
+              className="border-2 border-white/20 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black"
+            >
+              Login
+            </Link>
           </div>
         </div>
       </header>
@@ -148,20 +158,20 @@ export default function SinCityInkLanding() {
         </details>
       </section>
 
-           {/* Footer */}
+      {/* Footer */}
       <footer className="bg-black py-10 text-center text-white/70">
-  <div className="flex justify-center gap-6 mb-6">
-    <a href="#">Instagram</a>
-    <a href="#">TikTok</a>
-    <a href="#">YouTube</a>
-  </div>
-  <p>© 2025 Sin City Ink – Alle Rechte vorbehalten</p>
-  <div className="flex justify-center gap-6 mt-4">
-    <a href="/impressum" className="underline">Impressum</a>
-    <a href="/privacy" className="underline">Datenschutz</a>
-    <a href="/terms" className="underline">Nutzungsbedingungen</a>
-  </div>
-</footer>
+        <div className="flex justify-center gap-6 mb-6">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">YouTube</a>
+        </div>
+        <p>© 2025 Sin City Ink – Alle Rechte vorbehalten</p>
+        <div className="flex justify-center gap-6 mt-4">
+          <a href="/impressum" className="underline">Impressum</a>
+          <a href="/privacy" className="underline">Datenschutz</a>
+          <a href="/terms" className="underline">Nutzungsbedingungen</a>
+        </div>
+      </footer>
     </div>
   );
 }
